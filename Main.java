@@ -96,7 +96,7 @@ public class Main {
         System.out.print(Pow(a, n));
     }
 
-    public static void Permut(String n){ //Complexity linear -  O(n)
+    public static void Permut(String n){ //Complexity Factorical -  O(n!)
         char[] arr = new char[n.length()];
         for (int i = 0; i < n.length(); i++){
             arr[i] = n.charAt(i);
